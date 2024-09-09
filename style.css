@@ -16,7 +16,7 @@ body {
 }
 
 
-* {#seletoruniversal
+* {#seletor universal
     margin: 0;#tamanho da margem
     padding: 0;#espaçamento interno
 }
@@ -24,25 +24,25 @@ body {
 .principal {
     background-image: url("Background.png");# imagem como plano de fundo
     background-repeat: no-repeat;#imagem repetir apenas uma vez
-    background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-size: contain;#tamanho do plano de fundo
+    align-items: center; #alinhamento de elementos
+    text-align: center;# alinhamento de textos
 }
 
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    height: 100vh;#altura
+    display: grid;#organiza os elementos
+    grid-template-columns: 50% 50%;#duas colunas de 50%
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    border-radius: 5px;#cantos arredondados
+    padding: 1em;#espaçamento interno
+    color: var(--branco-principal);#cor de fonte
+    display: block;#como o elemento vai ser disposto
+    text-decoration: none;#reseta decoração do textos
+    margin-bottom: 1em;#
 }
 
 .botao_secundario {
