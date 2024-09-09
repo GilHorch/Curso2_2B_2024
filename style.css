@@ -8,41 +8,41 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo); #cor de fundo
-    color: var(--branco-principal); # cor da fonte
-    font-family: var(--fonte-principal); #estilo de fontes
-    font-size: 16px; #Tamanho dafonte
-    font-weight: 400; # negrito
+    background-color: var(--cor-de-fundo); /*#cor de fundo*/
+    color: var(--branco-principal); /*# cor da fonte*/
+    font-family: var(--fonte-principal); /*#estilo de fontes*/
+    font-size: 16px; /*#Tamanho dafonte*/
+    font-weight: 400; /*# negrito*/
 }
 
 
-* {#seletor universal
-    margin: 0;#tamanho da margem
-    padding: 0;#espaçamento interno
+* {/*#seletor universal*/
+    margin: 0;/*#tamanho da margem*/
+    padding: 0;/*#espaçamento interno*/
 }
 
 .principal {
-    background-image: url("Background.png");# imagem como plano de fundo
-    background-repeat: no-repeat;#imagem repetir apenas uma vez
-    background-size: contain;#tamanho do plano de fundo
-    align-items: center; #alinhamento de elementos
-    text-align: center;# alinhamento de textos
+    background-image: url("Background.png");/**/# imagem como plano de fundo
+    background-repeat: no-repeat;/**/#imagem repetir apenas uma vez
+    background-size: contain;/**/#tamanho do plano de fundo
+    align-items: center; /**/#alinhamento de elementos
+    text-align: center;/**/# alinhamento de textos
 }
 
 .container {
-    height: 100vh;#altura#
-    display: grid;#organiza os elementos#
-    grid-template-columns: 50% 50%;#duas colunas de 50%#
+    height: 100vh;/**/#altura#
+    display: grid;/**/#organiza os elementos#
+    grid-template-columns: 50% 50%;/**/#duas colunas de 50%#
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;#cantos arredondados
-    padding: 1em;#espaçamento interno
-    color: var(--branco-principal);#cor de fonte
-    display: block;#como o elemento vai ser disposto
-    text-decoration: none;#reseta decoração do textos
-    margin-bottom: 1em;#margem inferior
+    border-radius: 5px;/**/#cantos arredondados
+    padding: 1em;/**/#espaçamento interno
+    color: var(--branco-principal);/**/#cor de fonte
+    display: block;/**/#como o elemento vai ser disposto
+    text-decoration: none;/*#reseta decoração do textos*/
+    margin-bottom: 1em;/*#margem inferior*/
 }
 
 .botao_secundario {
